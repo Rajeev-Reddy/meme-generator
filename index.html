@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meme Generator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Random Meme Generator 😂</h1>
+    <button id="getMeme">Get Meme</button>
+    
+    <div class="meme-container">
+        <img id="memeImage" src="" alt="Meme will appear here">
+        <input type="text" id="topText" placeholder="Top Text">
+        <input type="text" id="bottomText" placeholder="Bottom Text">
+        <button id="generateMeme">Generate Meme</button>
+    </div>
+    
+    <canvas id="memeCanvas"></canvas>
+    <a id="downloadMeme" download="meme.png">Download Meme</a>
+
+    <script src="script.js"></script>
+</body>
+</html>

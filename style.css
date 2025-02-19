@@ -1,0 +1,47 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f4f4f4;
+    padding: 20px;
+}
+
+h1 {
+    color: #333;
+}
+
+button {
+    background-color: #008CBA;
+    color: white;
+    border: none;
+    padding: 10px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #005f73;
+}
+
+.meme-container {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+img {
+    max-width: 80%;
+    height: auto;
+    border: 2px solid #333;
+    margin-bottom: 10px;
+}
+
+input {
+    margin: 5px;
+    padding: 8px;
+    width: 200px;
+}
+
+canvas {
+    display: none;
+}
